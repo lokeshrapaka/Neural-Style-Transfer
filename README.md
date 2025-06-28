@@ -1,3 +1,6 @@
+# Neural-Style-Transfer
+
+
 COMPANY : CODETECH IT SOLUTIONS
 
 NAME : RAPAKA LOKESH
@@ -10,15 +13,14 @@ DURATION : 6 WEEKS
 
 MENTOR : NEELA SANTOSH
 
-# Neural-Style-Transfer
 
-**Overview**
+#Overview :
 
 This repository contains the implementation of a Neural Style Transfer (NST) project developed as part of the AI Internship at Codetech IT Solutions. The goal of this task is to apply the visual style of one image (usually an artwork or painting) to the content of another image (such as a photograph). This project demonstrates how deep learning and convolutional neural networks (CNNs) can be used for creative tasks, bridging the gap between technology and art.
 
 Neural Style Transfer is an exciting application of deep learning in the domain of computer vision. It leverages pretrained models to extract and recombine the content features of one image with the style features of another, producing visually compelling output that mimics the original art style while preserving the structure of the base image. The technique gained popularity following the work of Gatys et al. in 2015 and has since evolved into a foundation for AI-assisted design and media applications.
 
-**Objective**
+#Objective :
 
 The main objective of this task is to:
 
@@ -45,8 +47,9 @@ torchvision.models.vgg19 for feature extraction layers
 
 NumPy for numerical operations
 
-**Implementation Details
-**The NST process involves:
+#Implementation Details :
+
+The NST process involves:
 
 1.Loading the content and style images using PIL or OpenCV.
 
@@ -66,7 +69,7 @@ NumPy for numerical operations
 
 The result is a hybrid image that carries the detailed structure of the content image, painted in the brushstrokes or texture patterns of the style image.
 
-**Sample Usage**
+#Sample Usage :
 
 To run the style transfer:
 
@@ -74,6 +77,6 @@ To run the style transfer:
     
 The output image will be saved in the output directory, and intermediate results may be visualized during optimization.
 
-**Output :**
+#Output :
 
 ![Image](https://github.com/user-attachments/assets/4be87696-30de-4838-89aa-e2ba1bef190d)
