@@ -74,3 +74,6 @@ To run the style transfer:
     
 The output image will be saved in the output directory, and intermediate results may be visualized during optimization.
 
+**Output :**
+
+![Image](https://github.com/user-attachments/assets/4be87696-30de-4838-89aa-e2ba1bef190d)
